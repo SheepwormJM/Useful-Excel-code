@@ -18,3 +18,4 @@ To find a text string within a column - even if it doesn't match the entire entr
 # This is saying to look up the value in J33, and then search for it within the range in the Choi Orthologues. It it has a hit (even if it doesn't match the entire cell) then it is to return the value in the adjacent cell, in column 2 of the lookup range.
 =VLOOKUP("*"&J33&"*",Choi_Orthologues!$B$2:$C$31,2,FALSE)
 ```
+(see https://www.youtube.com/watch?v=11nza4eq8dw for more)
